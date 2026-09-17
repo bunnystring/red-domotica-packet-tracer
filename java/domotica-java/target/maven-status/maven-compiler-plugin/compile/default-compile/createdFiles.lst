@@ -1,0 +1,10 @@
+com/domotica/model/Ventana.class
+com/domotica/model/Puerta.class
+com/domotica/model/SensorTemperatura.class
+com/domotica/DomoticaApplication.class
+com/domotica/model/AireAcondicionado.class
+com/domotica/model/SensorMovimiento.class
+com/domotica/service/AutomatizacionService.class
+com/domotica/controller/DispositivoController.class
+com/domotica/model/Lampara.class
+com/domotica/model/Dispositivo.class

@@ -1,0 +1,295 @@
+{
+  "info": {
+    "_postman_id": "463ddbe1-24e9-4a8c-a1ae-978420512e7f",
+    "name": "Red Domotica",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "46675668",
+    "_collection_link": "https://go.postman.co/collection/46675668-463ddbe1-24e9-4a8c-a1ae-978420512e7f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get General Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/status",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "status"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU1-Turn Light On",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/light/on",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "light",
+            "on"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU1-Turn Light Off",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/light/off",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "light",
+            "off"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU2 - Set Temperature High",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/temperature/30",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "temperature",
+            "30"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU2 - Set Temperature Low",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/temperature/20",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "temperature",
+            "20"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU3 - Get Door Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/door",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "door"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU3 - Open Door",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/door/open",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "door",
+            "open"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU3 - Close Door",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/door/close",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "door",
+            "close"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU4 - No Motion",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/motion/false",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "motion",
+            "false"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU4 - Motion Detected",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/motion/true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "motion",
+            "true"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU5 - Open Window",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/window/open",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "window",
+            "open"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU5 - Close Window",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/window/close",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "window",
+            "close"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HU6 - Activate Away Mode",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/devices/window/close",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "devices",
+            "window",
+            "close"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

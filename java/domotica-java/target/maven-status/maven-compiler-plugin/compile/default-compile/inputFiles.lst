@@ -1,0 +1,10 @@
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/DomoticaApplication.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/controller/DispositivoController.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/model/AireAcondicionado.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/model/Dispositivo.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/model/Lampara.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/model/Puerta.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/model/SensorMovimiento.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/model/SensorTemperatura.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/model/Ventana.java
+/Users/Camilo/Desktop/Proyectos/red-domotica-packet-tracer/java/domotica-java/src/main/java/com/domotica/service/AutomatizacionService.java
